@@ -1,0 +1,143 @@
+<html>
+	<head>
+		<title>My ToDo List</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+	</head>
+
+	<body>
+		<div id="frame"><!-- Start of frame -->
+			<div id="container"><!-- Start of container -->
+				<ul id="mainList"><!-- Start of mainList -->
+					<li>
+						<div class="checkbox">
+							<div class="innerUnChecked"></div>
+						</div>
+						<div class="placeholder"></div>	
+						<p>
+							Check out this ToDo list<img src="images/x_button.png" class="pic" />
+						</p>
+						<div class="clear"></div>
+					</li>
+					<li>
+						<div class="checkbox">
+							<div class="innerUnChecked"></div>
+						</div>
+						<div class="placeholder"></div>	
+						<p>
+							Add new items using the '+'/enter key<img src="images/x_button.png" class="pic" />
+						</p>
+						<div class="clear"></div>
+					</li>
+					<li>
+						<div class="checkbox">
+							<div class="innerUnChecked"></div>
+						</div>
+						<div class="placeholder"></div>	
+						<p>
+							Remove items using the 'x' on the right<img src="images/x_button.png" class="pic" />
+						</p>
+						<div class="clear"></div>
+					</li>
+					<li>
+						<div class="checkbox">
+							<div class="innerUnChecked"></div>
+						</div>
+						<div class="placeholder"></div>	
+						<p>
+							You can also 'check' completed items<img src="images/x_button.png" class="pic" />
+						</p>
+						<div class="clear"></div>
+					</li>
+					<li>
+						<div class="checkbox">
+							<div class="innerUnChecked"></div>
+						</div>
+						<div class="placeholder"></div>	
+						<p>
+							Using the special checkboxes to the left<img src="images/x_button.png" class="pic" />
+						</p>
+						<div class="clear"></div>
+					</li>
+					<li>
+						<div class="checkbox">
+							<div class="innerUnChecked"></div>
+						</div>
+						<div class="placeholder"></div>	
+						<p>
+							In the bottom you can find the 'counter'<img src="images/x_button.png" class="pic" />
+						</p>
+						<div class="clear"></div>
+					</li>
+					<li>
+						<div class="checkbox">
+							<div class="innerUnChecked"></div>
+						</div>
+						<div class="placeholder"></div>	
+						<p>
+							It'll tell you how many items you have<img src="images/x_button.png" class="pic" />
+						</p>
+						<div class="clear"></div>
+					</li>
+					<li>
+						<div class="checkbox">
+							<div class="innerUnChecked"></div>
+						</div>
+						<div class="placeholder"></div>	
+						<p>
+							And how many you've already completed<img src="images/x_button.png" class="pic" />
+						</p>
+						<div class="clear"></div>
+					</li>
+					<li>
+						<div class="checkbox">
+							<div class="innerUnChecked"></div>
+						</div>
+						<div class="placeholder"></div>	
+						<p>
+							Email me at dor.solo@gmail.com<img src="images/x_button.png" class="pic" />
+						</p>
+						<div class="clear"></div>
+					</li>
+					<li>
+						<div class="checkbox">
+							<div class="innerUnChecked"></div>
+						</div>
+						<div class="placeholder"></div>	
+						<p>
+							I guess you can cross the first item now<img src="images/x_button.png" class="pic" />
+						</p>
+						<div class="clear"></div>
+					</li>
+					<li id="newItem">
+						<div class="checkbox">
+							<div class="innerUnChecked"></div>
+						</div>
+						<div class="placeholder"></div>	
+						<p>
+							temp_item<img src="images/x_button.png" class="pic" />
+						</p>
+						<div class="clear"></div>
+					</li>
+				</ul><!-- End of mainList -->
+				<div id="add"><!-- Start of add -->
+					<div id="leftArrow">
+						<a href="#">
+							<img src="images/arrowLeft.png" />
+						</a>
+					</div>
+					<div id="plus"></div>
+					<input maxlength=32 id="field" type="text" placeholder="Add new something here..."></input>
+					<div id="rightArrow">
+						<a href="#">
+							<img src="images/arrowRight.png" />
+						</a>
+					</div>
+				<div><!-- End of add -->
+				<p id="counter">You have completed <span id="numCompleted">0</span> out of <span id="numTask">10</span> tasks</p>
+			</div><!-- End of container -->
+		</div><!-- End of frame -->
+		<!-- SCRIPTS -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/script.js"></script>
+	</body>
+</html>

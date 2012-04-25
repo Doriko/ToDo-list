@@ -1,0 +1,191 @@
+@import "bootstrap.less";
+#reset > .global-reset();
+
+body {
+	background-color: #282828;
+	background-repeat: repeat-y;
+	background-position: center;
+	text-align: center;
+	padding: 25px 0 0 0;
+	margin: 0px;
+}
+#frame {
+	width: 900px;
+	padding-bottom: 25px;
+	margin: auto;
+	background-image: url("../images/pattern.png");
+	background-repeat: repeat-x repeat-y;
+}
+#container {
+	width: 350px;
+//	height: 250px;
+	position: relative;
+	top: 12px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding-top: 25px;
+	box-shadow: 2px 2px 1px 1px #ccc;
+}
+ul {
+	width: 300px;
+	padding: 0;
+	margin: auto;
+	list-style-type: none;
+	text-align: left;
+}
+li {
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	height: 25px;
+}
+#container p {
+	width: 247px;
+	float: left;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+	margin: auto;
+	margin-left: 1px;
+	background-color: white;
+	font-family: Helvetica-Neue, sans-serif;
+	font-size: 12px;
+	border-bottom: 1px solid #f5f5f5;
+	color: #cccccc;
+}
+#container li:hover p {
+	color: #aaaaaa;
+}
+.checkbox {
+	float: left;
+	padding-right: 17px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	border-right: solid 1px #efb9cd;
+	height: 20px;
+}
+.clear {
+	clear: both;
+}
+.placeholder {
+	margin-left: 1px;
+	border-left: 1px solid #efb9cd;
+	float: left;
+	width: 15px;
+	height: 25px;
+}
+.pic {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	display: none;
+}
+li:hover .pic {
+	display: block;
+} 
+.pic:hover {
+	cursor: pointer;
+}
+#field {
+	font-family: Helvetica-Neue, sans-serif;
+	font-size: 12px;
+	color: #cccccc;
+	height: 25px;
+	width: 177px;
+	outline: none;
+	padding-left: 8px;
+	border: 3px solid #eeeeee;
+	position: absolute;
+	top: 0px;
+	left: 75px;
+}
+#add {
+	height: 25px;
+	width: 300px;
+	position: relative;
+	left: 25px;
+	margin-top: 25px;
+	padding-bottom: 30px;
+}
+#leftArrow {
+	position: absolute;
+	left: 0px;
+	width: 25px;
+	height: 25px;
+	background-color: #eeeeee;
+}
+#leftArrow:hover {
+	cursor: pointer;
+	background-color: #cccccc;
+}
+#leftArrow img {
+	position: absolute;
+	top:6px;
+	right: 8px;
+}
+#rightArrow {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 25px;
+	height: 25px;
+	background-color: #eeeeee;
+}
+#rightArrow:hover {
+	cursor: pointer;
+	background-color: #cccccc;
+}
+#RightArrow img {
+	position: absolute;
+	top:6px;
+	right: 7px;
+}
+.innerUnChecked {
+	width: 13px;
+	height: 13px;
+	border: 1px solid #eeeeee;
+	border-radius: 2px 2px;
+	cursor: pointer;
+}
+li:hover .innerUnChecked {
+	border-color: #cccccc;
+}
+.innerUnChecked:hover {
+	background-image: url("../images/unchecked.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.innerChecked {
+	width: 13px;
+	height: 13px;
+	border: 1px solid #cccccc;
+	border-radius: 2px 2px;
+	background-image: url("../images/checked.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+#plus {
+	position: relative;
+	left: 50px;
+	height: 25px;
+	width: 25px;
+	background-color: #eeeeee;
+	background-image: url("../images/plus.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+#plus:hover {
+	background-color: #ccc;
+}
+#newItem {
+	display: none;
+}
+#container #counter {
+	position: relative;
+	left: 26px;
+	top: 5px;
+	color: #efb9cd;
+	padding-top: 6px;
+}
